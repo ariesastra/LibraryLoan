@@ -10,6 +10,10 @@ Applikasi ini saya masukan ke dalam GIT Repository saya, yaitu [URL](https://git
 - Aplikasi ini menggunakan NodeJS dan Node Package Manager (NPM), untuk proses instalasi, lakukan pengetikan kode `npm i` pada terminal.
 - API endpoint yang saya gunakan untuk aplikasi ini ada di [API Docs](https://documenter.getpostman.com/view/8074442/UVysxFcM)
 
+## Menjalankan Applikasi
+- Setelah proses instalasi selesai, ketik command ```npm run dev``` dalam root directory dimana *package.json* berada.
+- setelah itu, buka aplikasi untuk menjalankan request seperti ```postman, thunderclient``` atau aplikasi yang sering Anda gunakan untuk melakukan request API.
+
 ## Hasil
 Berikut beberapa hasil yang sudah saya develop dan test di local saya : 
 
