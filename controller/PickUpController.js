@@ -14,10 +14,18 @@ class PickUpController{
       const resSubject = await getSubjects.get(`programming.json?limit=100`)
       const works = resSubject.data.works
 
+      // Create Book ID
+      let bookId = ''
+      const chars = '01234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+      for (let i = 0; i < 4; i++) {
+        bookId += chars[Math.floor(Math.random() * chars.length)]
+      }
+      
       // Object Data
       const result = {
         pickup_time: new Date(pickup_date),
-        name
+        name,
+        bookId
       }
       let found = false
       works.forEach(el => {
